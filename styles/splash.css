@@ -1,0 +1,42 @@
+/* Splash */
+
+#splash {
+  height: 100vh;
+  background-image: url(http://wallpapersdsc.net/wp-content/uploads/2016/10/John-Mayer-Wallpapers-HD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* To not display when on the site. */
+  /* display: none; */
+}
+
+#splash .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#splash h2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translate(15vw, 20vh);
+
+  text-align: left;
+  color: #fff;
+  font-size: 4rem;
+  /* text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); */
+
+  /* 
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0) 40%,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0) 60%
+  );
+  */
+}
