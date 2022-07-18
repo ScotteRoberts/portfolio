@@ -1,0 +1,24 @@
+.contact {
+  .avatar {
+    align-self: center;
+    width: 200px;
+    height: auto;
+  }
+  .title {
+    text-align: center;
+  }
+  .icon {
+    display: flex;
+    align-content: center;
+    color: var(--black);
+    text-decoration: none;
+    overflow-wrap: anywhere;
+  }
+}
+
+.icon-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

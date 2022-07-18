@@ -1,0 +1,96 @@
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: calc(100%);
+  /* padding: 0 0.5rem; */
+  z-index: 10;
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.dropdown {
+  display: block;
+}
+
+header nav a,
+.dropdown-button {
+  display: block;
+  padding: 0.5rem;
+  background-color: white;
+}
+
+.dropdown-button {
+  /* Style for nav item */
+  position: relative;
+  color: var(--grey);
+  font-size: 1rem;
+  text-decoration: none;
+  transition: color 350ms, background-color 350ms;
+
+  /* Reset button styles */
+  border: none;
+  cursor: pointer;
+  line-height: inherit;
+}
+
+/* Hide dropdown content normally */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 8rem;
+  height: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+
+/* 
+At the current time, ':focus-within' is an experimental property that is gaining popularity 
+Credits: Check this out... https://css-tricks.com/solved-with-css-dropdown-menus/
+*/
+
+.dropdown:focus-within .dropdown-content,
+.dropdown-button:focus + .dropdown-content {
+  display: block;
+}
+
+/* Display submenu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media (hover: hover) {
+}
+
+/* ============================ Media Queries ================================= */
+
+@media only screen and (max-width: 44rem) {
+  /* #logo {
+    display: none;
+  } */
+  header nav a,
+  header nav ul li a,
+  .dropdown-button {
+    font-size: 0.8rem;
+  }
+}
