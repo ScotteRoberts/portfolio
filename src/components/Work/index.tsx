@@ -3,6 +3,7 @@ import React from 'react'
 function Work() {
   return (
     <>
+      <h3>Work</h3>
       <span className="summary">
         <em>[tl;dr]</em>
         <p className="tab">

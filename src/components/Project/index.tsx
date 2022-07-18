@@ -14,8 +14,8 @@ function Project({ projectData }: ProjectProps) {
       >
         <img src={img.src} alt={`${title} Screenshot`} />
       </a>
-      <h3>{`${title} | ${type}`}</h3>
-      <h4>{`${description}`}</h4>
+      <h2>{`${title} | ${type}`}</h2>
+      <h3>{`${description}`}</h3>
       <a href={url} target="_blank" rel="noopener noreferrer">
         {`${action}`} <i className="fas fa-chevron-right" />
       </a>

@@ -3,6 +3,7 @@ import React from 'react'
 function Personal() {
   return (
     <>
+      <h3>Personal</h3>
       <span className="summary">
         <em>[tl;dr]</em>
         <p className="tab">

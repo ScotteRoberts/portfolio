@@ -7,7 +7,7 @@ function Projects() {
   const projects = Object.values(projectObj)
   return (
     <section className="projects">
-      <h2>Projects</h2>
+      <h1>Projects</h1>
       <ul>
         {projects.map((project) => (
           <li key={project.url}>
