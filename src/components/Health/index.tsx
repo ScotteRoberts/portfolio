@@ -1,4 +1,7 @@
 import React from 'react'
+import improvedBehaviorIcon from '../../assets/icons/improved-behavior.png'
+import improvedProductivityIcon from '../../assets/icons/productivity.png'
+import reduceCostIcon from '../../assets/icons/reduce-cost.png'
 
 function Health() {
   return (
@@ -18,16 +21,31 @@ function Health() {
       </p>
       <ul className="icon-list">
         <li>
-          <i className="fas fa-user-check" style={{ color: 'green' }} />
+          <img
+            width={64}
+            height={64}
+            src={improvedBehaviorIcon}
+            alt="Improved Behavior Icon"
+          />
           Improved Behavior
         </li>
         <li>
-          <i className="fas fa-business-time" style={{ color: 'green' }} />
+          <img
+            width={64}
+            height={64}
+            src={improvedProductivityIcon}
+            alt="Improved Productivity Icon"
+          />
           Improved Productivity
         </li>
         <li>
-          <i className="fas fa-user-md" style={{ color: 'red' }} />
-          Less Cost in Medical Coverage
+          <img
+            width={64}
+            height={64}
+            src={reduceCostIcon}
+            alt="Reduce Cost Icon"
+          />
+          Reduced Health Costs
         </li>
       </ul>
       <p>

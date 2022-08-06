@@ -5,7 +5,6 @@ import timeManagementIcon from '../../assets/icons/time-management.png'
 import ideaIcon from '../../assets/icons/idea.png'
 import planningIcon from '../../assets/icons/planning.png'
 import speakingIcon from '../../assets/icons/speaking.png'
-import learningIcon from '../../assets/icons/learning.png'
 
 function Work() {
   return (

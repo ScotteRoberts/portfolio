@@ -19,7 +19,7 @@ function Personal() {
         Like many of my friends, family, and colleages, the internet has molded
         my knowledge of the world (it is difficult to imagine a world now
         without it). My goal is to contribute my knowledge to make a happy,
-        healthy internet environment for all to learn from and embrace.
+        healthy, educational internet environment for all.
       </p>
       <p>
         My personal hobby is tapping (drums, bongos, cajons, cowbells) and if I
