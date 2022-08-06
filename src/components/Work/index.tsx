@@ -1,4 +1,11 @@
 import React from 'react'
+import codingIcon from '../../assets/icons/coding.png'
+import conversationIcon from '../../assets/icons/conversation.png'
+import timeManagementIcon from '../../assets/icons/time-management.png'
+import ideaIcon from '../../assets/icons/idea.png'
+import planningIcon from '../../assets/icons/planning.png'
+import speakingIcon from '../../assets/icons/speaking.png'
+import learningIcon from '../../assets/icons/learning.png'
 
 function Work() {
   return (
@@ -35,12 +42,40 @@ function Work() {
       </p>
       <p>Skills I will apply in your company are:</p>
       <ul className="icon-list">
-        <li>Team Communication</li>
-        <li>Time Management</li>
-        <li>Problem Solving</li>
-        <li>Strategic Planning</li>
-        <li>Public Speaking</li>
-        <li>Quick Learning</li>
+        <li>
+          <img width={64} height={64} src={codingIcon} alt="Coding Icon" />
+          <span>App Development</span>
+        </li>
+        <li>
+          <img
+            width={64}
+            height={64}
+            src={conversationIcon}
+            alt="Conversation Icon"
+          />
+          <span>Collaboration</span>
+        </li>
+        <li>
+          <img
+            width={64}
+            height={64}
+            src={timeManagementIcon}
+            alt="Time Management Icon"
+          />
+          <span>Time Management</span>
+        </li>
+        <li>
+          <img width={64} height={64} src={ideaIcon} alt="Idea Icon" />
+          <span>Problem Solving</span>
+        </li>
+        <li>
+          <img width={64} height={64} src={planningIcon} alt="Planning Icon" />
+          <span>Strategic Planning</span>
+        </li>
+        <li>
+          <img width={64} height={64} src={speakingIcon} alt="Speaking Icon" />
+          <span>Public Speaking</span>
+        </li>
       </ul>
     </>
   )

@@ -6,7 +6,7 @@ import './styles/index.scss'
 
 function Overview() {
   return (
-    <article id="overview">
+    <section id="overview">
       <h2>Overview</h2>
 
       <article className="panel-article">
@@ -22,7 +22,7 @@ function Overview() {
       </article>
 
       {/* Start entering something for tabbed information */}
-    </article>
+    </section>
   )
 }
 
